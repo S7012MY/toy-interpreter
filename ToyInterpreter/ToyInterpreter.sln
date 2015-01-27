@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyInterpreter", "ToyInterpreter\ToyInterpreter.csproj", "{4FE1E641-6386-4B8D-8B2D-3D50DEB66364}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FE1E641-6386-4B8D-8B2D-3D50DEB66364}.Debug|x86.ActiveCfg = Debug|x86
+		{4FE1E641-6386-4B8D-8B2D-3D50DEB66364}.Debug|x86.Build.0 = Debug|x86
+		{4FE1E641-6386-4B8D-8B2D-3D50DEB66364}.Release|x86.ActiveCfg = Release|x86
+		{4FE1E641-6386-4B8D-8B2D-3D50DEB66364}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ToyInterpreter\ToyInterpreter.csproj
+	EndGlobalSection
+EndGlobal

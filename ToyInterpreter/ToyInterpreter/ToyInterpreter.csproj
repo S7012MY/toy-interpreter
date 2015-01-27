@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{4FE1E641-6386-4B8D-8B2D-3D50DEB66364}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ToyInterpreter</RootNamespace>
+    <AssemblyName>ToyInterpreter</AssemblyName>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controller\ToyInterpreter.cs" />
+    <Compile Include="View\AssignForm.cs" />
+    <Compile Include="View\AssignForm.Designer.cs">
+      <DependentUpon>AssignForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ExpressionForm.cs" />
+    <Compile Include="View\ExpressionForm.Designer.cs">
+      <DependentUpon>ExpressionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\StartUi.cs" />
+    <Compile Include="View\StartUi.Designer.cs">
+      <DependentUpon>StartUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\StatementForm.cs" />
+    <Compile Include="View\StatementForm.Designer.cs">
+      <DependentUpon>StatementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UI.cs" />
+    <Compile Include="Model\IDictionary.cs" />
+    <Compile Include="Model\VarTable.cs" />
+    <Compile Include="Model\Pair.cs" />
+    <Compile Include="Model\Constants.cs" />
+    <Compile Include="Model\MExpression\Expression.cs" />
+    <Compile Include="Model\MExpression\ConstExpression.cs" />
+    <Compile Include="Model\MExpression\ArithExpression.cs" />
+    <Compile Include="Model\MExpression\VarExpression.cs" />
+    <Compile Include="Model\MStatement\Statement.cs" />
+    <Compile Include="Model\MStatement\AssignStatement.cs" />
+    <Compile Include="Model\MStatement\CompoundStatement.cs" />
+    <Compile Include="Model\MStatement\IfStatement.cs" />
+    <Compile Include="Model\MStatement\PrintStatement.cs" />
+    <Compile Include="Model\IStack.cs" />
+    <Compile Include="Model\ExeStack.cs" />
+    <Compile Include="Model\IOutBuffer.cs">
+      <DependentUpon>Heap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\OutBuffer.cs" />
+    <Compile Include="Repository\IRepo.cs" />
+    <Compile Include="Repository\Repo.cs" />
+    <Compile Include="Model\ProgState.cs" />
+    <Compile Include="Repository\MemRepo.cs" />
+    <Compile Include="Model\MObserver\CObserver.cs" />
+    <Compile Include="Model\MObserver\OutBufferObserver.cs" />
+    <Compile Include="Model\MObserver\VarTableObserver.cs" />
+    <Compile Include="Model\MObserver\StackObserver.cs" />
+    <Compile Include="Model\MStatement\ForkStatement.cs" />
+    <Compile Include="Model\IHeap.cs" />
+    <Compile Include="Model\Heap.cs" />
+    <Compile Include="Model\MStatement\WHStatement.cs" />
+    <Compile Include="Model\MExpression\NewExpression.cs" />
+    <Compile Include="Model\MExpression\ReadExpression.cs" />
+    <Compile Include="Model\MExpression\RExpression.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Controller\" />
+    <Folder Include="Model\" />
+    <Folder Include="Repository\" />
+    <Folder Include="View\" />
+    <Folder Include="Model\MExpression\" />
+    <Folder Include="Model\MStatement\" />
+    <Folder Include="Model\MObserver\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\AssignForm.resx">
+      <DependentUpon>AssignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ExpressionForm.resx">
+      <DependentUpon>ExpressionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\StartUi.resx">
+      <DependentUpon>StartUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\StatementForm.resx">
+      <DependentUpon>StatementForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

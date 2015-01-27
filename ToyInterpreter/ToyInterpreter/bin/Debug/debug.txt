@@ -1,0 +1,84 @@
+Step------
+Exe stack:
+	a=(55)*(2)
+
+b=(55)/(2)
+
+
+print((a)/(b))
+
+
+z=(23)+(1)
+
+
+Var table is empty!
+OutBuffer is empty!
+Step------
+Exe stack:
+	a=(55)*(2)
+
+b=(55)/(2)
+
+
+print((a)/(b))
+
+
+	z=(23)+(1)
+
+Var table is empty!
+OutBuffer is empty!
+Step------
+Exe stack:
+	a=(55)*(2)
+
+b=(55)/(2)
+
+
+	print((a)/(b))
+
+	z=(23)+(1)
+
+Var table is empty!
+OutBuffer is empty!
+Step------
+Exe stack:
+	a=(55)*(2)
+
+	b=(55)/(2)
+
+	print((a)/(b))
+
+	z=(23)+(1)
+
+Var table is empty!
+OutBuffer is empty!
+Step------
+Exe stack:
+	b=(55)/(2)
+
+	print((a)/(b))
+
+	z=(23)+(1)
+
+Var Table:
+a=110
+OutBuffer is empty!
+Step------
+Exe stack:
+	print((a)/(b))
+
+	z=(23)+(1)
+
+Var Table:
+a=110
+b=27
+OutBuffer is empty!
+Step------
+Exe stack:
+	z=(23)+(1)
+
+Var Table:
+a=110
+b=27
+OutBuffer:
+4

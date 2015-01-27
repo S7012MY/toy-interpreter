@@ -1,0 +1,177 @@
+Number of programs: 1
+Program 1
+Exe stack:
+	print(v);Fork(v=20;lockEnter(1);print(v);lockExit(1));print((v)+(1));lockExit(1)
+	v=10
+OutBuffer is empty!
+Var table is empty!
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Number of programs: 1
+Program 1
+Exe stack:
+	print(v);Fork(v=20;lockEnter(1);print(v);lockExit(1));print((v)+(1));lockExit(1)
+OutBuffer is empty!
+Var Table:
+v=10
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Number of programs: 1
+Program 1
+Exe stack:
+	Fork(v=20;lockEnter(1);print(v);lockExit(1));print((v)+(1));lockExit(1)
+	print(v)
+OutBuffer is empty!
+Var Table:
+v=10
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Number of programs: 1
+Program 1
+Exe stack:
+	Fork(v=20;lockEnter(1);print(v);lockExit(1));print((v)+(1));lockExit(1)
+OutBuffer:
+10
+Var Table:
+v=10
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Number of programs: 1
+Program 1
+Exe stack:
+	print((v)+(1));lockExit(1)
+	Fork(v=20;lockEnter(1);print(v);lockExit(1))
+OutBuffer:
+10
+Var Table:
+v=10
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Number of programs: 2
+Program 1
+Exe stack:
+	print((v)+(1));lockExit(1)
+OutBuffer:
+10
+Var Table:
+v=10
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Program 2
+Exe stack:
+	lockEnter(1);print(v);lockExit(1)
+	v=20
+OutBuffer:
+10
+Var Table:
+v=10
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Number of programs: 2
+Program 1
+Exe stack:
+	lockExit(1)
+	print((v)+(1))
+OutBuffer:
+10
+Var Table:
+v=10
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Program 2
+Exe stack:
+	lockEnter(1);print(v);lockExit(1)
+OutBuffer:
+10
+Var Table:
+v=20
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Number of programs: 2
+Program 1
+Exe stack:
+	lockExit(1)
+OutBuffer:
+10
+11
+Var Table:
+v=10
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Program 2
+Exe stack:
+	print(v);lockExit(1)
+	lockEnter(1)
+OutBuffer:
+10
+11
+Var Table:
+v=20
+LockTable:
+lt[0] = 0
+lt[1] = 0
+lt[2] = 0
+Number of programs: 1
+Program 1
+Exe stack:
+	print(v);lockExit(1)
+OutBuffer:
+10
+11
+Var Table:
+v=20
+LockTable:
+lt[0] = 0
+lt[1] = 2
+lt[2] = 0
+Number of programs: 1
+Program 1
+Exe stack:
+	lockExit(1)
+	print(v)
+OutBuffer:
+10
+11
+Var Table:
+v=20
+LockTable:
+lt[0] = 0
+lt[1] = 2
+lt[2] = 0
+Number of programs: 1
+Program 1
+Exe stack:
+	lockExit(1)
+OutBuffer:
+10
+11
+20
+Var Table:
+v=20
+LockTable:
+lt[0] = 0
+lt[1] = 2
+lt[2] = 0
+Number of programs: 0
+Program terminated------
+Number of programs: 0

@@ -1,0 +1,9 @@
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/obj/x86/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/obj/x86/Release/ToyInterpreter.View.AssignForm.resources
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/obj/x86/Release/ToyInterpreter.View.ExpressionForm.resources
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/obj/x86/Release/ToyInterpreter.View.StartUi.resources
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/obj/x86/Release/ToyInterpreter.View.StatementForm.resources
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/bin/Release/ToyInterpreter.exe.mdb
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/bin/Release/ToyInterpreter.exe
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/obj/x86/Release/ToyInterpreter.exe
+/Users/petrutrimbitas/Downloads/ToyInterpreter/ToyInterpreter/obj/x86/Release/ToyInterpreter.exe.mdb

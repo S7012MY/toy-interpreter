@@ -1,0 +1,10 @@
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\bin\Debug\ToyInterpreter.exe
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\bin\Debug\ToyInterpreter.pdb
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\obj\x86\Debug\ToyInterpreter.csprojResolveAssemblyReference.cache
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\obj\x86\Debug\ToyInterpreter.exe
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\obj\x86\Debug\ToyInterpreter.pdb
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\obj\x86\Debug\ToyInterpreter.View.StartUi.resources
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\obj\x86\Debug\ToyInterpreter.View.StatementForm.resources
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\obj\x86\Debug\ToyInterpreter.csproj.GenerateResource.Cache
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\obj\x86\Debug\ToyInterpreter.View.ExpressionForm.resources
+C:\Users\puscas_admin\Documents\SharpDevelop Projects\ToyInterpreter\ToyInterpreter\obj\x86\Debug\ToyInterpreter.View.AssignForm.resources
